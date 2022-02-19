@@ -26,3 +26,6 @@ input {
   text-align: left;
   margin: 30px;
 }
+.Title {
+  text-decoration: underline;
+}
