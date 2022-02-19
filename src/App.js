@@ -1,4 +1,5 @@
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 import "./App.css";
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
       <div className="container">
         <h1>Hello</h1>
         <Dictionary />
+        <Footer />
       </div>
     </div>
   );

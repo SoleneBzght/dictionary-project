@@ -1,0 +1,16 @@
+.Footer {
+  margin-top: 20px;
+}
+small {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.githubLink {
+  color: lightblue;
+  text-decoration: none;
+}
+.githubLink:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
