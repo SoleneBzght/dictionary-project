@@ -20,10 +20,7 @@ export default function Phonetic(props) {
   } else {
     return (
       <div className="Phonetic">
-        <a className="Phonetic-false" alt="no-audio-icon">
-          🔇
-        </a>{" "}
-        {props.phonetic.text}
+        <span className="Phonetic-false">🔇</span> {props.phonetic.text}
       </div>
     );
   }
