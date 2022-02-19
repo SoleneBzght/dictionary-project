@@ -7,10 +7,10 @@ small {
   margin: 0 auto;
 }
 .githubLink {
-  color: #2c3545;
+  color: #44454b;
   text-decoration: none;
 }
 .githubLink:hover {
   text-decoration: underline;
-  color: #2c3545;
+  color: #44454b;
 }
