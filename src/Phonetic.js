@@ -10,6 +10,7 @@ export default function Phonetic(props) {
           target="_blank"
           rel="noreferrer noopener"
           className="Phonetic-true"
+          alt="audio-icon"
         >
           🔊
         </a>{" "}
@@ -19,7 +20,7 @@ export default function Phonetic(props) {
   } else {
     return (
       <div className="Phonetic">
-        <a href="#" className="Phonetic-false">
+        <a href="#" className="Phonetic-false" alt="no-audio-icon">
           🔇
         </a>{" "}
         {props.phonetic.text}
